@@ -4,8 +4,6 @@ class CreateRecipes < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.timestamps
-
-
     end
   end
 end
